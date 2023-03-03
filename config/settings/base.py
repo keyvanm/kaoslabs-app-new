@@ -4,7 +4,7 @@ from environs import Env
 
 env = Env()
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 SECRET_KEY = env('DJANGO_SECRET_KEY', None)
 DEBUG = env.bool('DJANGO_SECRET_KEY', False)
