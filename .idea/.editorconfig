@@ -1,4 +1,7 @@
 # http://editorconfig.org
 
-[.idea/*]
+[*]
 insert_final_newline = false
+
+[*.xml]
+indent_size = 2
